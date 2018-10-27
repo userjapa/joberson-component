@@ -71,8 +71,7 @@ export default {
             'color': '#fff',
             'height': '40px',
             'width': '40px'
-          },
-          content: 'Ois'
+          }
         },
         {
           el: 'h1',

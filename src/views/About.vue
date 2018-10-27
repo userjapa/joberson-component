@@ -35,7 +35,8 @@ export default {
       if (!!el.textContent) obj.content = el.textContent
       if (!!el.style) {
         obj.style = {}
-        for (const attr in el.style) {
+        const styles = Array.from(el.style)
+        for (const attr of styles) {
           obj.style[attr] = el.style[attr]
         }
       }
